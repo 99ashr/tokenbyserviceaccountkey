@@ -11,6 +11,6 @@ def bearer_token(filename, credential_scope):
 
 
 credential_scopes = ["https://www.googleapis.com/auth/cloud-platform"]
-service_account_file = "./yash-rnd-031df0bc7bfa.json"
+service_account_file = "./path_to_service_key.json"
 
 print(bearer_token(service_account_file, credential_scopes))

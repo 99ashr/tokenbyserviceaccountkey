@@ -18,7 +18,7 @@ project = "development-123456"
 zone = "us-west1-a"
 
 # Service Account Credentials, Json format
-json_filename = "./yash-rnd-031df0bc7bfa.json"
+json_filename = "./path_to_service_key.json"
 
 # Permissions to request for Access Token
 scopes = "https://www.googleapis.com/auth/cloud-platform"
