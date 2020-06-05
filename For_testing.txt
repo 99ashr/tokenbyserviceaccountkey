@@ -1,0 +1,13 @@
+GET /storage/v1/b/test-buck-ag/o HTTP/1.1
+Host: www.googleapis.com
+Authorization: Bearer ya29.c.Ko8ByQeRxbLhiFszeeUkUPyF84aykIIKwHlUXkFii1rLhGSHJceAgwX8e5gP_hq76IEohkmJRJFjrFqedP35fO9_TwqFwbubYGnuymRqjOVo-bm7r2mDwi0wDyvRkP-2wrWH2D4SH
+6ehdCXRtDZOBOIpaLvQFuR9Gj1K3hi-d5oTqkuK4wTR3QHffdga1nmvE3c
+
+
+curl -H "Authorization: Bearer ya29.c.Ko8ByQeRxbLhiFszeeUkUPyF84aykIIKwHlUXkFii1rLhGSHJceAgwX8e5gP_hq76IEohkmJRJFjrFqedP35fO9_TwqFwbubYGnuymRqjOVo-bm7r2mDwi0wDyvRkP-2wrWH2D4SH6ehdCXRtDZOBOIpaLvQFuR9Gj1K3hi-d5oTqkuK4wTR3QHffdga1nmvE3c" "https://storage.googleapis.com/storage/v1/b/test-buck-ag/o"
+
+
+Output:
+{
+  "kind": "storage#objects"
+}
